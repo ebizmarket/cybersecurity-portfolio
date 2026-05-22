@@ -11,19 +11,27 @@
 | # | Domain | Status |
 |---|---|---|
 | 01 | Incident Response | Draft complete |
-| 02 | Linux Fundamentals | In progress |
+| 02 | Bash & Cryptography | Draft complete |
 | 03 | SQL for Security | Pending |
 | 04 | Threat Detection | Pending |
 | 05 | Network Security | Pending |
+| 06 | Applied Projects | Draft complete |
 | 99 | Certifications | Pending |
 
 ## About this portfolio
 
-Documentation, lab notes, and incident analyses produced during the Google
-Cybersecurity Professional Certificate and ongoing self-directed study.
-Each folder contains a dedicated README with context and artifacts.
+Documentation, lab notes, applied project case studies, and incident analyses produced during the Google Cybersecurity Professional Certificate and ongoing self-directed study. Each folder contains a dedicated README with context and artifacts.
+
 
 ## Brand
 
-Reference document layout matches the CTA Incident Handler's Journal template
-(light body, CTA navy header band, CTA blue accents).
+All portfolio documents follow Community Tech Aid or eBiz Market, LLC design standards: light body, navy header band, blue accents. Templates include the Incident Handler's Journal, Lab Notes, and Project Case Study.
+
+
+## Business registration
+Portfolio author operates under eBiz Market, LLC (Hayden, Idaho).
+
+- **UEI:** ZBWHT4UT7V13
+- **NAICS:** 541512 (Computer Systems Design Services)
+- **SAM.gov:** Active registration
+- **Assumed business name:** Community Tech Aid
