@@ -4,8 +4,12 @@
 
 ## Contents
 
-*(placeholder. Entries added as work is completed.)*
+| Entry | Title | Format | Status |
+|---|---|---|---|
+| 01 | Risk Register - Bank Operational Environment | .pdf | Draft complete |
+
+## About this section
+Risk assessment, threat modeling, and detection work. Includes risk registers, threat scoring (Likelihood × Severity = Priority), and structured analysis of operational risks across financial, operational, and reputational impact.
 
 ## Reference
-
 Community Tech Aid · communitytechaid.ai · Hayden, ID
