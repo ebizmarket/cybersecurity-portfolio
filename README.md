@@ -4,6 +4,7 @@
 <p><em>Establishing persistence. Public commits pending.</em></p>
 <hr>
 <p>Analyst: <strong>Kelly Guzman</strong> &nbsp;·&nbsp; Founder & SOC Analyst, CTA &nbsp;·&nbsp; Hayden, ID</p>
+<p><strong><a href="Professional_Statement_-_Kelly_Guzman.pdf">Professional Statement</a></strong> &nbsp;·&nbsp; <strong><a href="Kelly_Guzman_2026_CV.pdf">CV</a></strong></p>
 </div>
 
 ## Index
