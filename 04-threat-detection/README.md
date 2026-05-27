@@ -7,9 +7,10 @@
 | Entry | Title | Format | Status |
 |---|---|---|---|
 | 01 | Risk Register - Bank Operational Environment | .pdf | Draft complete |
+| 02 | Botium Toys - Controls and Compliance Checklist | .pdf | Draft complete |
 
 ## About this section
-Risk assessment, threat modeling, and detection work. Includes risk registers, threat scoring (Likelihood × Severity = Priority), and structured analysis of operational risks across financial, operational, and reputational impact.
+Risk assessment, compliance auditing, and threat detection work. Includes risk registers with Likelihood × Severity = Priority scoring, internal security audits, and gap analysis against PCI DSS, GDPR, and SOC compliance frameworks.
 
 ## Reference
 Community Tech Aid · communitytechaid.ai · Hayden, ID
