@@ -13,21 +13,17 @@
 |---|---|---|
 | 01 | Incident Response | Draft complete |
 | 02 | Bash & Cryptography | Draft complete |
-| 03 | SQL for Security | Pending |
-| 04 | Threat Detection | Pending |
-| 05 | Network Security | Pending |
+| 03 | SQL for Security | Draft complete |
+| 04 | Threat Detection | Draft complete |
+| 05 | Network Security | Draft complete |
 | 06 | Applied Projects | Draft complete |
-| 99 | Certifications | Pending |
+| 99 | Certifications | Draft complete |
 
 ## About this portfolio
-
 Documentation, lab notes, applied project case studies, and incident analyses produced during the Google Cybersecurity Professional Certificate and ongoing self-directed study. Each folder contains a dedicated README with context and artifacts.
 
-
 ## Brand
-
 All portfolio documents follow Community Tech Aid or eBiz Market, LLC design standards: light body, navy header band, blue accents. Templates include the Incident Handler's Journal, Lab Notes, and Project Case Study.
-
 
 ## Business registration
 Portfolio author operates under eBiz Market, LLC (Hayden, Idaho).
