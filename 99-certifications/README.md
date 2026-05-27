@@ -2,10 +2,36 @@
 
 **Portfolio section 99** · part of [cybersecurity-portfolio](../README.md)
 
-## Contents
+## Google Cybersecurity Professional Certificate
 
-*(placeholder. Entries added as work is completed.)*
+Completed May 26, 2026 · [Verify](https://coursera.org/verify/professional-cert/VVLN131DTVVT)
+
+| Course | Completed | File |
+|---|---|---|
+| Google Cybersecurity Professional Certificate (Capstone) | May 26, 2026 | Coursera_VVLN131DTVVT.pdf |
+| Foundations of Cybersecurity | Apr 27, 2026 | Coursera_WRCDG934RMG1.pdf |
+| Play It Safe: Manage Security Risks | Apr 27, 2026 | Coursera_6IKW8FZKDY5G.pdf |
+| Connect and Protect: Networks and Network Security | Apr 27, 2026 | Coursera_G7WLFMTGH7QI.pdf |
+| Tools of the Trade: Linux and SQL | May 11, 2026 | Coursera_3Y0W2UFZT29B.pdf |
+| Assets, Threats, and Vulnerabilities | May 22, 2026 | Coursera_WSC7U4Y0N9WK.pdf |
+| Sound the Alarm: Detection and Response | May 26, 2026 | Coursera_FXPMSRDHHW52.pdf |
+| Automate Cybersecurity Tasks with Python | May 26, 2026 | Coursera_2WYWMI8RLIWE.pdf |
+| Put It to Work: Prepare for Cybersecurity Jobs | May 26, 2026 | Coursera_B4ZDZY6A3RPN.pdf |
+| Accelerate Your Job Search with AI | May 26, 2026 | Coursera_QDBW5U83G5BO.pdf |
+
+## Additional Google Coursework
+
+| Course | Completed | File |
+|---|---|---|
+| AI Fundamentals | Apr 27, 2026 | Coursera_M5WJFVILXC8H.pdf |
+
+## Additional Training
+
+| Program | Completed | File |
+|---|---|---|
+| CompTIA Network+ Accelerated Program (Training Camp, 40 hours) | May 8, 2025 | Kelly_Guzman.pdf |
+| CompTIA ITF+ CertMaster Learn (19 hours) | Jul 25, 2024 | certmaster-learn-completion-certificate.pdf |
+| ISC2 Certified in Cybersecurity Online Self-Paced Training | Mar 3, 2024 | Official_CC_Course_Completion_Certificate_Official_ISC2_CC_Online_Self-Paced_Training_-_1M_Guzman.pdf |
 
 ## Reference
-
 Community Tech Aid · communitytechaid.ai · Hayden, ID
