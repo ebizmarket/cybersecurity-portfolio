@@ -11,16 +11,16 @@
 
 | # | Domain | Status |
 |---|---|---|
-| 01 | Incident Response | Draft complete |
-| 02 | Bash & Cryptography | Draft complete |
-| 03 | SQL for Security | Draft complete |
-| 04 | Threat Detection | Draft complete |
-| 05 | Network Security | Draft complete |
-| 06 | Applied Projects | Draft complete |
-| 99 | Certifications | Draft complete |
+| 01 | Incident Response | Complete |
+| 02 | Bash & Cryptography | Complete |
+| 03 | SQL for Security | Complete |
+| 04 | Threat Detection | Complete |
+| 05 | Network Security | Complete |
+| 06 | Applied Projects | Complete |
+| 99 | Certifications | Complete |
 
 ## About this portfolio
-Documentation, lab notes, applied project case studies, and incident analyses produced during the Google Cybersecurity Professional Certificate and ongoing self-directed study. Each folder contains a dedicated README with context and artifacts.
+Documentation, lab notes, applied project case studies, and incident analyses were produced during the Google Cybersecurity Professional Certificate and ongoing self-directed study. Each folder contains a dedicated README with context and artifacts.
 
 ## Brand
 All portfolio documents follow Community Tech Aid or eBiz Market, LLC design standards: light body, navy header band, blue accents. Templates include the Incident Handler's Journal, Lab Notes, and Project Case Study.
