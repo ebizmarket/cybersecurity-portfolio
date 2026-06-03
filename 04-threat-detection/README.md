@@ -6,8 +6,8 @@
 
 | Entry | Title | Format | Status |
 |---|---|---|---|
-| 01 | Risk Register - Bank Operational Environment | .pdf | Draft complete |
-| 02 | Botium Toys - Controls and Compliance Checklist | .pdf | Draft complete |
+| 01 | Risk Register - Bank Operational Environment | .pdf | Complete |
+| 02 | Botium Toys - Controls and Compliance Checklist | .pdf | Complete |
 
 ## About this section
 Risk assessment, compliance auditing, and threat detection work. Includes risk registers with Likelihood × Severity = Priority scoring, internal security audits, and gap analysis against PCI DSS, GDPR, and SOC compliance frameworks.
