@@ -6,8 +6,8 @@
 
 | Entry | Title | Format | Status |
 |---|---|---|---|
-| 01 | Community Tech Aid - Self-Hosted LLM Platform | .pdf | Draft complete |
-| 02 | eBiz Market, LLC - Technology Services & Cybersecurity | .pdf | Draft complete |
+| 01 | Community Tech Aid - Self-Hosted LLM Platform | .pdf | Complete |
+| 02 | eBiz Market, LLC - Technology Services & Cybersecurity | .pdf | Complete |
 
 ## About this section
 Real-world infrastructure and security work outside coursework. Production systems designed, built, and operated end-to-end.
