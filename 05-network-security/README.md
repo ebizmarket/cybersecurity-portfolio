@@ -6,8 +6,8 @@
 
 | Entry | Title | Format | Status |
 |---|---|---|---|
-| 01 | Security Risk Assessment Report - Network Hardening | .pdf | Draft complete |
-| 02 | Security Incident Report - Network Protocol Analysis | .pdf | Draft complete |
+| 01 | Security Risk Assessment Report - Network Hardening | .pdf | Complete |
+| 02 | Security Incident Report - Network Protocol Analysis | .pdf | Complete |
 
 ## About this section
 Network hardening analysis, incident documentation, and protocol-level investigation. Covers baseline configurations, MFA, firewall maintenance, HTTP/port-80 vulnerabilities, brute force attacks, and remediation recommendations.
