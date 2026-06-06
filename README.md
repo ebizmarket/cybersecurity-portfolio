@@ -1,7 +1,7 @@
 <div align="center">
 <h1>CYBERSECURITY PORTFOLIO</h1>
 <p><strong>COMMUNITY TECH AID</strong> &nbsp;·&nbsp; Tech help that doesn't make you feel stupid.</p>
-<p><em>I recently completed a cybersecurity certification and maintain a public portfolio that includes a governance and compliance section with SAM.gov documentation.</em></p>
+<p><em>SOC and GRC analyst portfolio. Detection, incident response, and federal compliance.</em></p>
 <hr>
 <p>Analyst: <strong>Kelly Guzman</strong> &nbsp;·&nbsp; Founder & SOC Analyst, CTA &nbsp;·&nbsp; Hayden, ID</p>
 <p><strong><a href="Professional_Statement_-_Kelly_Guzman.pdf">Professional Statement</a></strong> &nbsp;·&nbsp; <strong><a href="Kelly_Guzman_2026_CV.pdf">CV</a></strong></p>
