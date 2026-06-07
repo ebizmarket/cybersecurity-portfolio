@@ -20,7 +20,6 @@ A running list of free, trusted cybersecurity tools and resources. Maintained by
 
 ## Learning & Reference
 - Resource name - short note
-
----
+- [Deflock](https://deflock.org/) - Crowdsourced map of ALPR (automated license plate reader) camera locations.
 
 *Last updated: 06/2026*
