@@ -6,6 +6,7 @@
 <p>Analyst: <strong>Kelly Guzman</strong> &nbsp;·&nbsp; SOC Analyst, CTA &nbsp;·&nbsp; Hayden, ID</p>
 <p><strong><a href="Professional_Statement_-_Kelly_Guzman.pdf">Professional Statement</a></strong> &nbsp;·&nbsp; <strong><a href="Kelly_Guzman_2026_CV.pdf">CV</a></strong></p>
 </div>
+ 
 Index
 #DomainStatus01Incident ResponseComplete02Bash & CryptographyComplete03SQL for SecurityComplete04Threat DetectionComplete05Network SecurityComplete06Applied ProjectsComplete99CertificationsComplete
 About this portfolio
