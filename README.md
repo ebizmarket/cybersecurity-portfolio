@@ -6,7 +6,6 @@
 <p>Analyst: <strong>Kelly Guzman</strong> &nbsp;·&nbsp; SOC and GRC Analyst, CTA &nbsp;·&nbsp; Hayden, ID</p>
 <p><strong><a href="Professional_Statement_-_Kelly_Guzman.pdf">Professional Statement</a></strong> &nbsp;·&nbsp; <strong><a href="Kelly_Guzman_2026_CV.pdf">CV</a></strong></p>
 </div>
-
 <br>
 
 ## Index
@@ -19,6 +18,7 @@
 | 04 | Threat Detection | Complete |
 | 05 | Network Security | Complete |
 | 06 | Applied Projects | Complete |
+| 07 | GRC & Compliance | Complete |
 | 99 | Certifications | Complete |
 
 ## About this portfolio
