@@ -19,10 +19,13 @@ Completed May 26, 2026 · [Verify](https://coursera.org/verify/professional-cert
 | Put It to Work: Prepare for Cybersecurity Jobs | May 26, 2026 | Coursera_B4ZDZY6A3RPN.pdf |
 | Accelerate Your Job Search with AI | May 26, 2026 | Coursera_QDBW5U83G5BO.pdf |
 
-## Additional Google Coursework
+## Google AI Professional Certificate
+
+Completed June 27, 2026 · [Verify](https://coursera.org/verify/professional-cert/ZWBDLESEM7SJ)
 
 | Course | Completed | File |
 |---|---|---|
+| Google AI Professional Certificate (7 courses) | Jun 27, 2026 | Coursera ZWBDLESEM7SJ.pdf |
 | AI Fundamentals | Apr 27, 2026 | Coursera_M5WJFVILXC8H.pdf |
 
 ## Additional Training
@@ -34,4 +37,5 @@ Completed May 26, 2026 · [Verify](https://coursera.org/verify/professional-cert
 | ISC2 Certified in Cybersecurity Online Self-Paced Training | Mar 3, 2024 | Official_CC_Course_Completion_Certificate_Official_ISC2_CC_Online_Self-Paced_Training_-_1M_Guzman.pdf |
 
 ## Reference
+
 Community Tech Aid · communitytechaid.ai · Hayden, ID
