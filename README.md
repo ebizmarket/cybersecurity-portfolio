@@ -18,8 +18,16 @@
 | 04 | Threat Detection | Complete |
 | 05 | Network Security | Complete |
 | 06 | Applied Projects | Complete |
-| 07 | GRC & Compliance | Complete |
+| 07 | GRC & Compliance | Complete · NIST 800-53 package |
 | 99 | Certifications | Complete |
+
+### Featured: NIST SP 800-53 Rev 5 compliance package
+
+A complete four-document control package for a live production system, not a training scenario. Community Tech Aid (communitytechaid.ai) assessed against the NIST SP 800-53 Revision 5 LOW baseline: 136 controls, a System Security Plan, an 18-family Security Policy Manual, a Security Assessment Report performed under NIST SP 800-53A Rev 5 methods, and a 20-item POA&M with owners and target dates.
+
+Results: 42 Satisfied, 25 Satisfied (Inherited), 51 Other Than Satisfied, 18 Not Applicable. Seven security weaknesses were self-identified and remediated during the assessment period and are documented rather than quietly patched. The assessment is a self-assessment and says so.
+
+→ [07-grc-compliance/cta-nist-800-53-package](07-grc-compliance/cta-nist-800-53-package)
 
 ## About this portfolio
 
