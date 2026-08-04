@@ -3,7 +3,7 @@
 <p><strong>COMMUNITY TECH AID</strong> &nbsp;·&nbsp; Tech help that doesn't make you feel stupid.</p>
 <p><em>SOC and GRC analyst portfolio. Detection, incident response, and federal compliance.</em></p>
 <hr>
-<p>Analyst: <strong>Kelly Guzman</strong> &nbsp;·&nbsp; SOC and GRC Analyst, CTA &nbsp;·&nbsp; Hayden, ID</p>
+<p>Analyst: <strong>Kelly Guzman</strong> &nbsp;·&nbsp; GRC & Compliance Analyst, CTA &nbsp;·&nbsp; Hayden, ID</p>
 <p><strong><a href="Professional_Statement_-_Kelly_Guzman.pdf">Professional Statement</a></strong> &nbsp;·&nbsp; <strong><a href="Kelly_Guzman_2026_CV.pdf">CV</a></strong></p>
 </div>
 <br>
