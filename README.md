@@ -21,6 +21,16 @@
 | 07 | GRC & Compliance | Complete · NIST 800-53 package |
 | 99 | Certifications | Complete |
 
+### Certifications
+
+| Certification | Issuer | Completed |
+| --- | --- | --- |
+| Google Cybersecurity Professional Certificate | Google (Coursera) | — |
+| Google AI Professional Certificate (7-course specialization) | Google (Coursera) | June 27, 2026 |
+| AI for App Deployment | Google (Coursera) | August 11, 2026 |
+
+→ [99-certifications](99-certifications)
+
 ### Featured: NIST SP 800-53 Rev 5 compliance package
 
 A complete four-document control package for a live production system, not a training scenario. Community Tech Aid (communitytechaid.ai) assessed against the NIST SP 800-53 Revision 5 LOW baseline: 136 controls, a System Security Plan, an 18-family Security Policy Manual, a Security Assessment Report performed under NIST SP 800-53A Rev 5 methods, and a 20-item POA&M with owners and target dates.
