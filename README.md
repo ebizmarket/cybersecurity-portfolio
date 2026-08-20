@@ -26,7 +26,7 @@
 | Certification | Issuer | Completed |
 | --- | --- | --- |
 | AI Security Fundamentals – LLM Threats & OWASP 2026 | Packt (Coursera) | August 20, 2026 |
-| Google Cybersecurity Professional Certificate | Google (Coursera) | — |
+| Google Cybersecurity Professional Certificate | Google (Coursera) | June 27, 2026 |
 | Google AI Professional Certificate (7-course specialization) | Google (Coursera) | June 27, 2026 |
 | AI for App Deployment | Google (Coursera) | August 11, 2026 |
 
