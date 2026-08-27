@@ -18,7 +18,7 @@
 | 04 | Threat Detection | Complete |
 | 05 | Network Security | Complete |
 | 06 | Applied Projects | Complete |
-| 07 | GRC & Compliance | Complete · NIST 800-53 package |
+| 07 | GRC & Compliance | Complete · NIST 800-53 package + MATRIS red-team test |
 | 99 | Certifications | Complete |
 
 ### Certifications
@@ -39,6 +39,14 @@ A complete four-document control package for a live production system, not a tra
 Results: 42 Satisfied, 25 Satisfied (Inherited), 51 Other Than Satisfied, 18 Not Applicable. Seven security weaknesses were self-identified and remediated during the assessment period and are documented rather than quietly patched. The assessment is a self-assessment and says so.
 
 → [07-grc-compliance/cta-nist-800-53-package](07-grc-compliance/cta-nist-800-53-package)
+
+### Featured: MATRIS Red-Team Test — Community Tech Aid chatbot
+
+A no-code, visual red-teaming round against Community Tech Aid's live production chatbot (communitytechaid.ai/chat), scored manually against the OWASP Top 10 for LLM Applications. 7 adversarial prompts covering prompt injection, sensitive info disclosure, excessive agency, and misinformation/scam-validation categories, plus a supplemental drift/hallucination check.
+
+Result: 7/7 PASS. Risk Scorecard: 100/SECURE. Evidence includes the full chat transcript and a raw JSON test log alongside human-confirmed verdicts.
+
+→ [07-grc-compliance/matris-redteam-test-2026-08-27](07-grc-compliance/matris-redteam-test-2026-08-27)
 
 ## About this portfolio
 
