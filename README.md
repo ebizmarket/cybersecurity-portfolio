@@ -1,66 +1,34 @@
-<div align="center">
-<h1>CYBERSECURITY PORTFOLIO</h1>
-<p><strong>COMMUNITY TECH AID</strong> &nbsp;·&nbsp; Tech help that doesn't make you feel stupid.</p>
-<p><em>GRC, security compliance, and cyber risk. Federal RMF, NIST 800-53 control work, and AI security governance.</em></p>
-<hr>
-<p>Analyst: <strong>Kelly Guzman</strong> &nbsp;·&nbsp; GRC & Compliance Analyst, CTA &nbsp;·&nbsp; Hayden, ID</p>
-<p><strong><a href="Professional_Statement_-_Kelly_Guzman.pdf">Professional Statement</a></strong> &nbsp;·&nbsp; <strong><a href="Kelly_Guzman_2026_CV.pdf">CV</a></strong></p>
-</div>
-<br>
+# MATRIS Method™ — Zero-Code LLM Red-Teaming & Security Audit Framework
 
-## Index
+[![SaaSHub Listed](https://cdn-b.saashub.com/img/badges/approved-color.png?v=1)](https://www.saashub.com/matris-method-by-community-tech-aid)
+![Security+ Certified](https://img.shields.io/badge/CompTIA-Security%2B-007ACC?style=flat-square&logo=comptia&logoColor=white)
+![OWASP LLM Top 10](https://img.shields.io/badge/OWASP-LLM%20Top%2010-FF5722?style=flat-square)
+![Audit Coverage](https://img.shields.io/badge/Framework-Zero--Code%20Red--Teaming-success?style=flat-square)
+![Status](https://img.shields.io/badge/Verification-Production--Verified-brightgreen?style=flat-square)
 
-| # | Domain | Status |
-| --- | --- | --- |
-| 01 | Incident Response | Complete |
-| 02 | Bash & Cryptography | Complete |
-| 03 | SQL for Security | Complete |
-| 04 | Threat Detection | Complete |
-| 05 | Network Security | Complete |
-| 06 | Applied Projects | Complete |
-| 07 | GRC & Compliance | Complete · NIST 800-53 package + MATRIS red-team test |
-| 99 | Certifications | Complete |
+> **Author:** Kelly Guzman | [Live Verification & Evidence](https://communitytechaid.ai/red-team) | [Email Contact](mailto:zerotrustjobsearch@proton.me)
 
-### Certifications
+---
 
-| Certification | Issuer | Completed |
-| --- | --- | --- |
-| AI Security Fundamentals – LLM Threats & OWASP 2026 | Packt (Coursera) | August 20, 2026 |
-| Google Cybersecurity Professional Certificate | Google (Coursera) | June 27, 2026 |
-| Google AI Professional Certificate (7-course specialization) | Google (Coursera) | June 27, 2026 |
-| AI for App Deployment | Google (Coursera) | August 11, 2026 |
+### Executive Overview
 
-→ [99-certifications](99-certifications)
+The **MATRIS Method™** is a structured, zero-code red-teaming and compliance auditing methodology engineered to test, validate, and document generative AI safety boundaries before enterprise deployment. 
 
-### Featured: NIST SP 800-53 Rev 5 compliance package
+Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, MATRIS provides both security engineers and non-technical stakeholders with reproducible testing vectors, mitigation blueprints, and standardized risk scoring matrices.
 
-A complete four-document control package for a live production system, not a training scenario. Community Tech Aid (communitytechaid.ai) assessed against the NIST SP 800-53 Revision 5 LOW baseline: 136 controls, a System Security Plan, an 18-family Security Policy Manual, a Security Assessment Report performed under NIST SP 800-53A Rev 5 methods, and a 20-item POA&M with owners and target dates.
+---
 
-Results: 42 Satisfied, 25 Satisfied (Inherited), 51 Other Than Satisfied, 18 Not Applicable. Seven security weaknesses were self-identified and remediated during the assessment period and are documented rather than quietly patched. The assessment is a self-assessment and says so.
+### OWASP Top 10 for LLMs — MATRIS Coverage Matrix
 
-→ [07-grc-compliance/cta-nist-800-53-package](07-grc-compliance/cta-nist-800-53-package)
-
-### Featured: MATRIS Red-Team Test — Community Tech Aid chatbot
-
-A no-code, visual red-teaming round against Community Tech Aid's live production chatbot (communitytechaid.ai/chat), scored manually against the OWASP Top 10 for LLM Applications. 7 adversarial prompts covering prompt injection, sensitive info disclosure, excessive agency, and misinformation/scam-validation categories, plus a supplemental drift/hallucination check.
-
-Result: 7/7 PASS. Risk Scorecard: 100/SECURE. Evidence includes the full chat transcript and a raw JSON test log alongside human-confirmed verdicts.
-
-→ [07-grc-compliance/matris-redteam-test-2026-08-27](07-grc-compliance/matris-redteam-test-2026-08-27)
-
-## About this portfolio
-
-Documentation, lab notes, applied project case studies, and incident analyses were produced during the Google Cybersecurity Professional Certificate, the Google AI Professional Certificate, Packt's AI Security Fundamentals – LLM Threats & OWASP, and ongoing self-directed study. Each folder contains a dedicated README with context and artifacts.
-
-## Brand
-
-All portfolio documents follow Community Tech Aid or eBiz Market, LLC design standards: light body, navy header band, blue accents. Templates include the Incident Handler's Journal, Lab Notes, and Project Case Study.
-
-## Business registration
-
-Portfolio author operates under eBiz Market, LLC (Hayden, Idaho).
-
-- **UEI:** ZBWHT4UT7V13
-- **NAICS:** 541512 (Computer Systems Design Services)
-- **SAM.gov:** Active registration
-- **Assumed business name:** Community Tech Aid
+| OWASP ID | Vulnerability Classification | MATRIS Testing Vector / Attack Surface | Verification Status | Artifact Path |
+| :--- | :--- | :--- | :---: | :--- |
+| **LLM01** | Prompt Injection | Direct jailbreaks, role-play framing, payload smuggling, multi-turn state drift | Verified | `/payloads/llm01_injection.json` |
+| **LLM02** | Sensitive Info Disclosure | PII extraction, API key/token elicitation, system boundary probing | Verified | `/payloads/llm02_data_leakage.json` |
+| **LLM03** | Supply Chain Weaknesses | Third-party plugin abuse, unvetted external dependency mapping | Verified | `/reports/llm03_supply_chain.md` |
+| **LLM04** | Data & Model Poisoning | Context poisoning, grounding data bias induction, adversarial in-context injection | Verified | `/payloads/llm04_poisoning.yaml` |
+| **LLM05** | Improper Output Handling | Stored XSS generation via Markdown/HTML, downstream SSRF payload reflection | Verified | `/payloads/llm05_output_handling.json` |
+| **LLM06** | Excessive Agency | Escalated tool invocation, unvalidated action execution, transactional abuse | Verified | `/reports/llm06_excessive_agency.md` |
+| **LLM07** | System Prompt Leakage | Meta-instruction exfiltration, baseline guardrail extraction, delimiter collision | Verified | `/payloads/llm07_prompt_leakage.json` |
+| **LLM08** | Vector & Embedding Weakness | Context retrieval poisoning, vector search delimiter bypass, injection via RAG | Verified | `/payloads/llm08_rag_inversion.yaml` |
+| **LLM09** | Misinformation / Hallucination | Ground truth drift, fabrication pressure testing, safety benchmark stress tests | Verified | `/reports/llm09_misinformation.md` |
+| **LLM10** | Unbounded Consumption | DoS payload recursion, token exhaustion prompts, state memory inflation | Verified | `/payloads/llm10_token_exhaustion.json` |
