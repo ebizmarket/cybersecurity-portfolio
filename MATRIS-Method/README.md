@@ -14,7 +14,15 @@
 
 The **MATRIS Method™** is a structured, zero-code red-teaming and compliance auditing methodology engineered to test, validate, and document generative AI safety boundaries before enterprise deployment. 
 
-Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, MATRIS provides both security engineers and non-technical stakeholders with reproducible testing vectors, mitigation blueprints, and standardized risk scoring matrices.
+Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, MATRIS provides both security engineers and non-technical stakeholders with reproducible testing vectors, human-confirmed verdicts, and a standardized risk scorecard.
+
+### Documentation
+
+| Page | What it covers |
+| :--- | :--- |
+| [Methodology](./METHODOLOGY.md) | Inspection layers, test library, procedure, verdict criteria, screening, scoring, evidence standard, limitations |
+| [Test Round 01 (2026-08-27)](./matris-redteam-test-2026-08-27/) | Live test of the Community Tech Aid chatbot: results, evidence, observations |
+| [LinkedIn article](https://www.linkedin.com/pulse/ai-security-tools-assume-you-have-dev-team-i-dont-one-kelly-guzman-kdb6c/) | Why MATRIS exists and what the first round showed |
 
 ---
 
