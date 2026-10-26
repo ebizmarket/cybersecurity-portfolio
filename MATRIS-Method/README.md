@@ -20,15 +20,15 @@ Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, M
 
 ### OWASP Top 10 for LLMs - MATRIS Coverage Matrix
 
-| OWASP ID | Vulnerability Classification | MATRIS Testing Vector / Attack Surface | Verification Status | Artifact Path |
+| OWASP ID | Vulnerability Classification | MATRIS Testing Vector / Attack Surface | Status | Evidence |
 | :--- | :--- | :--- | :---: | :--- |
-| **LLM01** | Prompt Injection | Direct jailbreaks, role-play framing, payload smuggling, multi-turn state drift | Verified | `/payloads/llm01_injection.json` |
-| **LLM02** | Sensitive Info Disclosure | PII extraction, API key/token elicitation, system boundary probing | Verified | `/payloads/llm02_data_leakage.json` |
-| **LLM03** | Supply Chain Weaknesses | Third-party plugin abuse, unvetted external dependency mapping | Verified | `/reports/llm03_supply_chain.md` |
-| **LLM04** | Data & Model Poisoning | Context poisoning, grounding data bias induction, adversarial in-context injection | Verified | `/payloads/llm04_poisoning.yaml` |
-| **LLM05** | Improper Output Handling | Stored XSS generation via Markdown/HTML, downstream SSRF payload reflection | Verified | `/payloads/llm05_output_handling.json` |
-| **LLM06** | Excessive Agency | Escalated tool invocation, unvalidated action execution, transactional abuse | Verified | `/reports/llm06_excessive_agency.md` |
-| **LLM07** | System Prompt Leakage | Meta-instruction exfiltration, baseline guardrail extraction, delimiter collision | Verified | `/payloads/llm07_prompt_leakage.json` |
-| **LLM08** | Vector & Embedding Weakness | Context retrieval poisoning, vector search delimiter bypass, injection via RAG | Verified | `/payloads/llm08_rag_inversion.yaml` |
-| **LLM09** | Misinformation / Hallucination | Ground truth drift, fabrication pressure testing, safety benchmark stress tests | Verified | `/reports/llm09_misinformation.md` |
-| **LLM10** | Unbounded Consumption | DoS payload recursion, token exhaustion prompts, state memory inflation | Verified | `/payloads/llm10_token_exhaustion.json` |
+| **LLM01** | Prompt Injection | Direct prompt injection, roleplay jailbreak | Tested 2026-08-27 · Pass 2/2 | [2026-08-27 evidence](./matris-redteam-test-2026-08-27/) |
+| **LLM02** | Sensitive Info Disclosure | Sensitive information elicitation, system boundary probing | Tested 2026-08-27 · Pass 1/1 | [2026-08-27 evidence](./matris-redteam-test-2026-08-27/) |
+| **LLM03** | Supply Chain Weaknesses | Third-party plugin abuse, unvetted external dependency mapping | Planned | - |
+| **LLM04** | Data & Model Poisoning | Context poisoning, grounding data bias induction, adversarial in-context injection | Planned | - |
+| **LLM05** | Improper Output Handling | Stored XSS generation via Markdown/HTML, downstream SSRF payload reflection | Planned | - |
+| **LLM06** | Excessive Agency | Unvalidated action and transaction requests | Tested 2026-08-27 · Pass 1/1 | [2026-08-27 evidence](./matris-redteam-test-2026-08-27/) |
+| **LLM07** | System Prompt Leakage | System prompt exfiltration attempt | Tested 2026-08-27 · Pass 1/1 | [2026-08-27 evidence](./matris-redteam-test-2026-08-27/) |
+| **LLM08** | Vector & Embedding Weakness | Context retrieval poisoning, vector search delimiter bypass, injection via RAG | Planned | - |
+| **LLM09** | Misinformation / Hallucination | In-progress scam assistance, scam validation pressure | Tested 2026-08-27 · Pass 2/2 | [2026-08-27 evidence](./matris-redteam-test-2026-08-27/) |
+| **LLM10** | Unbounded Consumption | DoS payload recursion, token exhaustion prompts, state memory inflation | Planned | - |
