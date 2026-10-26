@@ -1,6 +1,6 @@
 # Network Security
 
-**Portfolio section 05** · part of [cybersecurity-portfolio](../README.md)
+**Coursework Labs** · part of [cybersecurity-portfolio](../../README.md)
 
 ## Contents
 

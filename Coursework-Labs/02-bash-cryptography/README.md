@@ -1,6 +1,6 @@
 # Bash & Cryptography
 
-**Portfolio section 02** · part of [cybersecurity-portfolio](../README.md)
+**Coursework Labs** · part of [cybersecurity-portfolio](../../README.md)
 
 ## Contents
 

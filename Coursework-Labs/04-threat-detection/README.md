@@ -1,6 +1,6 @@
 # Threat Detection
 
-**Portfolio section 04** · part of [cybersecurity-portfolio](../README.md)
+**Coursework Labs** · part of [cybersecurity-portfolio](../../README.md)
 
 ## Contents
 

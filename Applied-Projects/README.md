@@ -1,5 +1,5 @@
 # Applied Projects
-Portfolio section 06 · part of cybersecurity-portfolio
+Applied Projects · part of [cybersecurity-portfolio](../README.md)
 ## Contents
 | Entry | Title | Format | Status |
 |-------|-------|--------|--------|

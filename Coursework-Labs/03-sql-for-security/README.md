@@ -1,6 +1,6 @@
 # SQL for Security
 
-**Portfolio section 03** · part of [cybersecurity-portfolio](../README.md)
+**Coursework Labs** · part of [cybersecurity-portfolio](../../README.md)
 
 ## Contents
 
