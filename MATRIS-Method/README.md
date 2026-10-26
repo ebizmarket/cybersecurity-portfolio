@@ -1,5 +1,6 @@
 # MATRIS Method™ - Zero-Code LLM Red-Teaming & Security Audit Framework
 
+[![OWASP GenAI Solutions Directory](https://img.shields.io/badge/OWASP%20GenAI-Solutions%20Directory-000000?style=flat-square)](https://genai.owasp.org/solution/matris-method-red-team-console/)
 [![SaaSHub Listed](https://cdn-b.saashub.com/img/badges/approved-color.png?v=1)](https://www.saashub.com/matris-method-by-community-tech-aid)
 ![Security+ Certified](https://img.shields.io/badge/CompTIA-Security%2B-007ACC?style=flat-square&logo=comptia&logoColor=white)
 ![OWASP LLM Top 10](https://img.shields.io/badge/OWASP-LLM%20Top%2010-FF5722?style=flat-square)
@@ -20,6 +21,7 @@ Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, M
 
 | Page | What it covers |
 | :--- | :--- |
+| [OWASP GenAI Solutions Directory listing](https://genai.owasp.org/solution/matris-method-red-team-console/) | Independent listing by the OWASP GenAI Security Project (October 4, 2026) |
 | [Methodology](./METHODOLOGY.md) | Inspection layers, test library, procedure, verdict criteria, screening, scoring, evidence standard, limitations |
 | [Console Self-Assessment (2026-10-25)](./console-self-assessment-2026-10-25/) | MATRIS tested itself: 6 findings in the console's screening and scoring, with reproduction script |
 | [Findings Register](./FINDINGS.md) | Every finding and observation, with severity, status and closure |
