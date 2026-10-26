@@ -6,7 +6,7 @@
 ![Audit Coverage](https://img.shields.io/badge/Framework-Zero--Code%20Red--Teaming-success?style=flat-square)
 ![Status](https://img.shields.io/badge/Verification-Production--Verified-brightgreen?style=flat-square)
 
-> **Author:** Kelly Guzman | [Live Verification & Evidence](https://communitytechaid.ai/red-team) | [Email Contact](mailto:zerotrustjobsearch@proton.me)
+> **Author:** Kelly Guzman | [Live Verification & Evidence](https://communitytechaid.ai/red-team) | [Email Contact](mailto:contact@ebizmarket.net)
 
 ---
 

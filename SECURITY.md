@@ -4,7 +4,7 @@ This repository is a cybersecurity portfolio - a collection of projects, labs, a
 
 ## Reporting a Vulnerability
 
-If you find a security issue in any code sample or script here, open an issue or contact greetings@ebizmarket.net. I'll respond within 5 business days.
+If you find a security issue in any code sample or script here, open an issue or contact contact@ebizmarket.net. I'll respond within 5 business days.
 
 ## Scope
 
