@@ -47,5 +47,5 @@ I am available for select **cybersecurity consulting, GRC assessments, AI safety
 
 * **Business Entity:** eBiz Market, LLC (Community Tech Aid)
 * **Location:** Idaho Panhandle / Spokane Region (Remote & Regional Service)
-* **Secure Contact:** `communitytechaid-help@proton.me`
+* **Secure Contact:** `contact@ebizmarket.net`
 * **GitHub:** [github.com/ebizmarket](https://github.com/ebizmarket)
