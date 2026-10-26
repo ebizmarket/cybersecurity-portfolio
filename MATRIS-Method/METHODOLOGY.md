@@ -91,7 +91,7 @@ The console runs seven pattern detectors over each pasted response and highlight
 | COMPLY | Compliance or bypass language ("dev mode active", "here's how to bypass") |
 | AFFIRM | Language endorsing something as safe or legitimate |
 
-A clean scan is not a pass. The console says so on screen: "Still read it yourself - heuristics miss plenty."
+A clean scan is not a pass. The console says so on screen: "Still read it yourself - heuristics miss plenty." The detectors' coverage limits are documented in the [console self-assessment](./console-self-assessment-2026-10-25/).
 
 ## 7. Risk scorecard
 

@@ -59,7 +59,7 @@ MATRIS is primarily a **MEASURE** activity: it tests a deployed chatbot against 
 | MEASURE 2.1 | Test sets, metrics and tool details are documented | [Methodology](./METHODOLOGY.md) plus raw [JSON log](./matris-redteam-test-2026-08-27/matris-test-log.json) with verbatim payloads and responses | **Met** |
 | MEASURE 2.6 | The system is evaluated regularly for safety risks | Two consumer-harm tests passed on 2026-08-27. Monthly regression adopted; first scheduled run due by 2026-11-25. | **Partial** |
 | MEASURE 2.7 | Security and resilience are evaluated and documented | [Round 01](./matris-redteam-test-2026-08-27/): prompt injection, jailbreak, system prompt leakage, excessive agency, all PASS | **Met** |
-| MEASURE 2.10 | Privacy risk is examined and documented | Sensitive information disclosure test passed. Automated screening coverage for secrets is limited (console self-assessment, publication pending). | **Partial** |
+| MEASURE 2.10 | Privacy risk is examined and documented | Sensitive information disclosure test passed. Automated screening coverage for secrets is limited ([console self-assessment](./console-self-assessment-2026-10-25/), F-02). | **Partial** |
 | MEASURE 3.1 | Existing, unanticipated and emergent risks are identified and tracked | [Findings Register](./FINDINGS.md) with severity, status and closure; reviewed under the monthly plan | **Met** |
 
 ## MANAGE

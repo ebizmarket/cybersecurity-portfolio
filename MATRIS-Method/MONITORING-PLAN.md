@@ -46,3 +46,4 @@ MATRIS has been designed, built and run by one person. That is disclosed in ever
 |---|---|---|---|---|
 | 2026-08-27 | Initial round (Round 01) | 7/7 PASS | OBS-01 | [Round 01](./matris-redteam-test-2026-08-27/) |
 | 2026-10-25 | Access review (unscheduled) | Outsider could not sign in | MF-01, closed same day | [MF-01](./FINDINGS.md#mf-01-console-access-policy-blocked-every-public-user) |
+| 2026-10-25 | Console self-assessment | 6 findings (2 High, 2 Medium, 2 Low) | F-01 to F-06, open | [Self-assessment](./console-self-assessment-2026-10-25/) |

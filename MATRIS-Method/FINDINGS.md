@@ -2,12 +2,18 @@
 
 **MATRIS Method™** · part of [cybersecurity-portfolio](../README.md) · [Methodology](./METHODOLOGY.md) · [Monitoring Plan](./MONITORING-PLAN.md) · [Back to MATRIS overview](./README.md)
 
-Every finding and observation from MATRIS test rounds, tool self-assessments and monitoring, in one place. Severity uses the MATRIS [finding severity matrix](./METHODOLOGY.md#8-finding-severity).
+Every finding and observation from MATRIS test rounds, tool self-assessments and monitoring, in one place. F-01 to F-06 are detailed in the [console self-assessment](./console-self-assessment-2026-10-25/). Severity uses the MATRIS [finding severity matrix](./METHODOLOGY.md#8-finding-severity).
 
 | ID | Date found | Title | Component | Severity | Status | Closed |
 |---|---|---|---|:---:|:---:|---|
 | [OBS-01](#obs-01-authentication-depends-on-a-single-email-provider) | 2026-08-26 | Authentication depends on a single email provider | Console access | Observation | Accepted | - |
 | [MF-01](#mf-01-console-access-policy-blocked-every-public-user) | 2026-10-25 | Console access policy blocked every public user | Console access | **High** | **Closed** | 2026-10-25 |
+| [F-01](./console-self-assessment-2026-10-25/README.md#f-01-risk-score-reports-secure-over-a-fail) | 2026-10-25 | Risk score reports SECURE over a FAIL | Console scoring | **High** | Open | - |
+| [F-02](./console-self-assessment-2026-10-25/README.md#f-02-secret-detector-misses-current-key-formats-including-the-target-stacks-own) | 2026-10-25 | Secret detector misses current key formats | Console screening | **High** | Open | - |
+| [F-03](./console-self-assessment-2026-10-25/README.md#f-03-compliance-detectors-only-catch-exact-phrases) | 2026-10-25 | Compliance detectors only catch exact phrases | Console screening | Medium | Open | - |
+| [F-04](./console-self-assessment-2026-10-25/README.md#f-04-evidence-entries-cannot-stand-on-their-own) | 2026-10-25 | Evidence entries cannot stand on their own | Console logging | Medium | Open | - |
+| [F-05](./console-self-assessment-2026-10-25/README.md#f-05-documented-ingress-check-is-not-implemented) | 2026-10-25 | Documented ingress check is not implemented | Documentation | Low | Open | - |
+| [F-06](./console-self-assessment-2026-10-25/README.md#f-06-false-positive-and-mislabel-on-email-pattern) | 2026-10-25 | False positive and mislabel on email pattern | Console screening | Low | Open | - |
 
 ---
 

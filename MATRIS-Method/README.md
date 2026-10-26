@@ -21,6 +21,7 @@ Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, M
 | Page | What it covers |
 | :--- | :--- |
 | [Methodology](./METHODOLOGY.md) | Inspection layers, test library, procedure, verdict criteria, screening, scoring, evidence standard, limitations |
+| [Console Self-Assessment (2026-10-25)](./console-self-assessment-2026-10-25/) | MATRIS tested itself: 6 findings in the console's screening and scoring, with reproduction script |
 | [Findings Register](./FINDINGS.md) | Every finding and observation, with severity, status and closure |
 | [Monitoring Plan](./MONITORING-PLAN.md) | Monthly regression and access review, change-triggered retests, independent review plan, run log |
 | [NIST AI RMF Crosswalk](./NIST-AI-RMF-CROSSWALK.md) | MATRIS mapped to AI RMF 1.0 subcategories and the NIST Generative AI Profile, with gaps marked |
