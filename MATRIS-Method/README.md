@@ -21,6 +21,7 @@ Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, M
 | Page | What it covers |
 | :--- | :--- |
 | [Methodology](./METHODOLOGY.md) | Inspection layers, test library, procedure, verdict criteria, screening, scoring, evidence standard, limitations |
+| [NIST AI RMF Crosswalk](./NIST-AI-RMF-CROSSWALK.md) | MATRIS mapped to AI RMF 1.0 subcategories and the NIST Generative AI Profile, with gaps marked |
 | [Test Round 01 (2026-08-27)](./matris-redteam-test-2026-08-27/) | Live test of the Community Tech Aid chatbot: results, evidence, observations |
 | [LinkedIn article](https://www.linkedin.com/pulse/ai-security-tools-assume-you-have-dev-team-i-dont-one-kelly-guzman-kdb6c/) | Why MATRIS exists and what the first round showed |
 

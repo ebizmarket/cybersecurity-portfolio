@@ -6,7 +6,7 @@
 
 Welcome to my professional cybersecurity portfolio. As the founder of **eBiz Market, LLC / Community Tech Aid**, I specialize in **Governance, Risk, and Compliance (GRC), NIST framework alignment, and Artificial Intelligence (AI) Red Teaming**. 
 
-My work bridges the gap between high-level security frameworks (NIST SP 800-53, OWASP Top 10 for LLMs) and practical, field-tested operational execution.
+My work bridges the gap between high-level security frameworks (NIST SP 800-53, NIST AI RMF, OWASP Top 10 for LLMs) and practical, field-tested operational execution.
 
 📄 **[Resume](./Kelly_Guzman_GRC_AI_Security_Compliance_Resume.pdf)** | **[Professional Statement](./Professional_Statement_-_Kelly_Guzman.pdf)** | **[Credly Badges](https://www.credly.com/users/kelly-guzman.d8130039)**
 
@@ -24,7 +24,7 @@ My work bridges the gap between high-level security frameworks (NIST SP 800-53, 
 
 ### 1. The MATRIS Method™ (AI Red Teaming Framework)
 * **Location:** [`/MATRIS-Method/`](./MATRIS-Method/)
-* **Description:** A verified, no-code framework designed to evaluate and red-team AI models and LLM chatbots against the OWASP Top 10 for LLMs. Tested against a live production chatbot for prompt injection, sensitive information disclosure, excessive agency, system prompt leakage, and misinformation. Listed on **SaaSHub**.
+* **Description:** A verified, no-code framework designed to evaluate and red-team AI models and LLM chatbots against the OWASP Top 10 for LLMs. Tested against a live production chatbot for prompt injection, sensitive information disclosure, excessive agency, system prompt leakage, and misinformation. Documented [methodology](./MATRIS-Method/METHODOLOGY.md) and [NIST AI RMF crosswalk](./MATRIS-Method/NIST-AI-RMF-CROSSWALK.md). Listed on **SaaSHub**.
 * **Value:** Empowers organizations to stress-test their AI deployments prior to production release without requiring heavy custom scripting.
 
 ### 2. GRC & Compliance Artifacts
