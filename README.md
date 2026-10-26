@@ -8,7 +8,7 @@ Welcome to my professional cybersecurity portfolio. As the founder of **eBiz Mar
 
 My work bridges the gap between high-level security frameworks (NIST SP 800-53, OWASP Top 10 for LLMs) and practical, field-tested operational execution.
 
-📄 **[Resume](./Kelly_Guzman_GRC_Security_Compliance_Resume.pdf)** | **[Professional Statement](./Professional_Statement_-_Kelly_Guzman.pdf)** | **[Credly Badges](https://www.credly.com/users/kelly-guzman.d8130039)**
+📄 **[Resume](./Kelly_Guzman_GRC_AI_Security_Compliance_Resume.pdf)** | **[Professional Statement](./Professional_Statement_-_Kelly_Guzman.pdf)** | **[Credly Badges](https://www.credly.com/users/kelly-guzman.d8130039)**
 
 ---
 
