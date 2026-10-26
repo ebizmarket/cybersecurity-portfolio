@@ -1,34 +1,51 @@
-# MATRIS Method™ — Zero-Code LLM Red-Teaming & Security Audit Framework
+# Kelly Guzman | GRC, Compliance & AI Security Portfolio
 
-[![SaaSHub Listed](https://cdn-b.saashub.com/img/badges/approved-color.png?v=1)](https://www.saashub.com/matris-method-by-community-tech-aid)
-![Security+ Certified](https://img.shields.io/badge/CompTIA-Security%2B-007ACC?style=flat-square&logo=comptia&logoColor=white)
-![OWASP LLM Top 10](https://img.shields.io/badge/OWASP-LLM%20Top%2010-FF5722?style=flat-square)
-![Audit Coverage](https://img.shields.io/badge/Framework-Zero--Code%20Red--Teaming-success?style=flat-square)
-![Status](https://img.shields.io/badge/Verification-Production--Verified-brightgreen?style=flat-square)
+[![CompTIA Security+](https://img.shields.io/badge/Certification-CompTIA%20Security%2B-blue?style=for-the-badge&logo=comptia)](https://www.comptia.org)
+[![Framework](https://img.shields.io/badge/Framework-MATRIS%20Method%E2%84%A2-purple?style=for-the-badge&logo=openai)](https://www.saashub.com/matris-method-by-community-tech-aid)
+[![Status](https://img.shields.io/badge/Status-Available%20for%20Contracts%20%26%20Consulting-success?style=for-the-badge)]()
 
-> **Author:** Kelly Guzman | [Live Verification & Evidence](https://communitytechaid.ai/red-team) | [Email Contact](mailto:zerotrustjobsearch@proton.me)
+Welcome to my professional cybersecurity portfolio. As the founder of **eBiz Market, LLC / Community Tech Aid**, I specialize in **Governance, Risk, and Compliance (GRC), NIST framework alignment, and Artificial Intelligence (AI) Red Teaming**. 
 
----
-
-### Executive Overview
-
-The **MATRIS Method™** is a structured, zero-code red-teaming and compliance auditing methodology engineered to test, validate, and document generative AI safety boundaries before enterprise deployment. 
-
-Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, MATRIS provides both security engineers and non-technical stakeholders with reproducible testing vectors, mitigation blueprints, and standardized risk scoring matrices.
+My work bridges the gap between high-level security frameworks (NIST CSF 2.0, NIST AI RMF) and practical, field-tested operational execution.
 
 ---
 
-### OWASP Top 10 for LLMs — MATRIS Coverage Matrix
+## 🚀 Core Expertise & Capabilities
 
-| OWASP ID | Vulnerability Classification | MATRIS Testing Vector / Attack Surface | Verification Status | Artifact Path |
-| :--- | :--- | :--- | :---: | :--- |
-| **LLM01** | Prompt Injection | Direct jailbreaks, role-play framing, payload smuggling, multi-turn state drift | Verified | `/payloads/llm01_injection.json` |
-| **LLM02** | Sensitive Info Disclosure | PII extraction, API key/token elicitation, system boundary probing | Verified | `/payloads/llm02_data_leakage.json` |
-| **LLM03** | Supply Chain Weaknesses | Third-party plugin abuse, unvetted external dependency mapping | Verified | `/reports/llm03_supply_chain.md` |
-| **LLM04** | Data & Model Poisoning | Context poisoning, grounding data bias induction, adversarial in-context injection | Verified | `/payloads/llm04_poisoning.yaml` |
-| **LLM05** | Improper Output Handling | Stored XSS generation via Markdown/HTML, downstream SSRF payload reflection | Verified | `/payloads/llm05_output_handling.json` |
-| **LLM06** | Excessive Agency | Escalated tool invocation, unvalidated action execution, transactional abuse | Verified | `/reports/llm06_excessive_agency.md` |
-| **LLM07** | System Prompt Leakage | Meta-instruction exfiltration, baseline guardrail extraction, delimiter collision | Verified | `/payloads/llm07_prompt_leakage.json` |
-| **LLM08** | Vector & Embedding Weakness | Context retrieval poisoning, vector search delimiter bypass, injection via RAG | Verified | `/payloads/llm08_rag_inversion.yaml` |
-| **LLM09** | Misinformation / Hallucination | Ground truth drift, fabrication pressure testing, safety benchmark stress tests | Verified | `/reports/llm09_misinformation.md` |
-| **LLM10** | Unbounded Consumption | DoS payload recursion, token exhaustion prompts, state memory inflation | Verified | `/payloads/llm10_token_exhaustion.json` |
+* **Governance, Risk & Compliance (GRC):** NIST CSF 2.0 control implementation, audit readiness, vulnerability assessment, and policy hardening.
+* **AI Security & LLM Red Teaming:** Creator of the **MATRIS Method™** - a structured, no-code framework for systematically red teaming AI chatbots against the **OWASP Top 10 for Large Language Models**.
+* **High-Stakes Operational Rigor:** Extensive background managing precision compliance, chain-of-custody protocols, and operational workflows (including government election administration and complex field deployments).
+
+---
+
+## 📂 Portfolio Highlights
+
+### 1. The MATRIS Method™ (AI Red Teaming Framework)
+* **Location:** [`/MATRIS-Method/`](./MATRIS-Method/)
+* **Description:** A verified, no-code framework designed to evaluate and red-team AI models and LLM chatbots against prompt injection, data leakage, insecure output handling, and other OWASP LLM risks. Listed on **SaaSHub**.
+* **Value:** Empowers organizations to stress-test their AI deployments prior to production release without requiring heavy custom scripting.
+
+### 2. GRC & Compliance Artifacts
+* **Location:** [`/GRC-and-Compliance/`](./GRC-and-Compliance/)
+* **Description:** Enterprise-style documentation samples, including risk matrices, access control frameworks, and compliance cross-walks aligned with NIST and small-business security standards.
+
+### 3. Operational Leadership & Compliance Proof
+* **Location:** [`/Operational-Experience/`](./Operational-Experience/)
+* **Description:** Documentation detailing my operational background in high-accountability environments - managing high-precision government election workflows, hardware chain-of-custody (USPS infrastructure), and structured incident triage.
+
+---
+
+## 🛠️ Professional Certifications & Credentials
+* **CompTIA Security+** (Cert ID: `COMP001021980832`)
+* **Google Professional Cybersecurity Certificate**
+* **Google AI Fundamentals**
+
+---
+
+## 💼 Contracting & Professional Inquiries
+I am available for select **cybersecurity consulting, GRC assessments, AI safety evaluations, and government contracting opportunities**. 
+
+* **Business Entity:** eBiz Market, LLC (Community Tech Aid)
+* **Location:** Idaho Panhandle / Spokane Region (Remote & Regional Service)
+* **Secure Contact:** `communitytechaid-help@proton.me`
+* **GitHub:** [github.com/ebizmarket](https://github.com/ebizmarket)

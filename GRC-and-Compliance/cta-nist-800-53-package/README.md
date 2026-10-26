@@ -1,6 +1,6 @@
 # CTA NIST SP 800-53 Rev 5 Compliance Package
 
-Portfolio section 07 · part of cybersecurity-portfolio
+GRC and Compliance · part of cybersecurity-portfolio
 
 A complete, four-document control package for a live production system, assessed
 against the NIST SP 800-53 Revision 5 LOW baseline. The system is Community Tech

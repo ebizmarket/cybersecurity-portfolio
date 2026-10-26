@@ -1,6 +1,6 @@
 # Governance, Risk, and Compliance
 
-Portfolio section 07 · part of cybersecurity-portfolio
+GRC and Compliance · part of cybersecurity-portfolio
 
 ## Contents
 
