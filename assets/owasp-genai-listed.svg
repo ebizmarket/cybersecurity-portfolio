@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="56" viewBox="0 0 272 56" role="img" aria-label="Listed in the OWASP GenAI Security Project">
+  <rect x="0.5" y="0.5" width="271" height="55" rx="7" fill="#101828" stroke="#2b3a55"/>
+  <g transform="translate(16,14)" fill="none" stroke="#9fb3c8" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M12 1 L22 5 V13 C22 20 17.5 25 12 27 C6.5 25 2 20 2 13 V5 Z"/>
+    <path d="M7.5 14 L11 17.5 L17 10.5"/>
+  </g>
+  <text x="52" y="23" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="9" letter-spacing="1.2" fill="#9fb3c8">LISTED IN THE</text>
+  <text x="52" y="40" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">OWASP® GenAI Security Project</text>
+</svg>

@@ -1,15 +1,31 @@
 # Kelly Guzman | GRC, Compliance & AI Security Portfolio
 
-[![CompTIA Security+](https://img.shields.io/badge/Certification-CompTIA%20Security%2B-blue?style=for-the-badge&logo=comptia)](https://www.comptia.org)
-[![Framework](https://img.shields.io/badge/Framework-MATRIS%20Method%E2%84%A2-purple?style=for-the-badge&logo=openai)](https://www.saashub.com/matris-method-by-community-tech-aid)
-![Status](https://img.shields.io/badge/Status-Available%20for%20Contracts%20%26%20Consulting-success?style=for-the-badge)
-[![OWASP GenAI Solutions Directory](https://img.shields.io/badge/OWASP%20GenAI-Solutions%20Directory-000000?style=for-the-badge)](https://genai.owasp.org/solution/matris-method-red-team-console/)
-[![SaaSHub Approved](https://cdn-b.saashub.com/img/badges/approved-color.png?v=1)](https://www.saashub.com/matris-method-by-community-tech-aid?utm_source=badge&utm_campaign=badge&utm_content=matris-method-by-community-tech-aid&badge_variant=color&badge_kind=approved)
+[![CompTIA Security+](https://img.shields.io/badge/Certification-CompTIA%20Security%2B-1f4e79?style=flat-square)](https://www.credly.com/badges/eff4c0a7-3f56-4445-917c-882a9ba872ce)
+[![Framework](https://img.shields.io/badge/Framework-MATRIS%20Method%E2%84%A2-1f3a5f?style=flat-square)](./MATRIS-Method/)
+![Status](https://img.shields.io/badge/Status-Available%20for%20Contracts%20%26%20Consulting-2e7d32?style=flat-square)
 
-## 🏅 MATRIS Method™ - Independent Listings
+## Recognition
 
-* **[MATRIS Method™ Red-Team Console](https://genai.owasp.org/solution/matris-method-red-team-console/)** - OWASP GenAI Security Project, by OWASPGenAIProject Editor / October 4, 2026
-* **[MATRIS Method by Community Tech Aid](https://www.saashub.com/matris-method-by-community-tech-aid?utm_source=badge&utm_campaign=badge&utm_content=matris-method-by-community-tech-aid&badge_variant=color&badge_kind=approved)** - SaaSHub, approved listing, October 2026
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://genai.owasp.org/solution/matris-method-red-team-console/"><img src="assets/owasp-genai-listed.svg" alt="Listed in the OWASP GenAI Security Project" height="48"></a><br>
+<sub><i>Independently listed on OWASP® GenAI</i></sub>
+<p><b><a href="https://genai.owasp.org/solution/matris-method-red-team-console/">MATRIS Method™ Red-Team Console</a></b><br>
+<sub>OWASP Gen AI Security Project · By OWASPGenAIProject Editor / October 4, 2026</sub></p>
+<p>A no-code, visual red-teaming console for small businesses and solo operators testing their own AI chatbots, with OWASP-mapped attack tests and human-confirmed verdicts in a running risk scorecard.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://www.saashub.com/matris-method-by-community-tech-aid?utm_source=badge&utm_campaign=badge&utm_content=matris-method-by-community-tech-aid&badge_variant=color&badge_kind=approved"><img src="https://cdn-b.saashub.com/img/badges/approved-color.png?v=1" alt="Approved on SaaSHub" height="48"></a><br>
+<sub><i>Independently listed on SaaSHub</i></sub>
+<p><b><a href="https://www.saashub.com/matris-method-by-community-tech-aid?utm_source=badge&utm_campaign=badge&utm_content=matris-method-by-community-tech-aid&badge_variant=color&badge_kind=approved">MATRIS Method by Community Tech Aid</a></b><br>
+<sub>SaaSHub · Approved listing, October 2026</sub></p>
+<p>A no-code, browser-based console for red teaming LLM chatbots: seven guided attack tests with pass/fail results mapped to the OWASP Top 10 for LLM Applications.</p>
+</td>
+</tr>
+</table>
+
+<sub>Directory inclusion is not a certification or a guarantee of security.</sub>
 
 ---
 
