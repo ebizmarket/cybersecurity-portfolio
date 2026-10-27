@@ -9,6 +9,7 @@
 | **Date** | October 25, 2026 |
 | **Question** | Can the console's screening and scoring be pushed toward a wrong answer? |
 | **Method** | Code review of the screening and scoring logic, then reproduction: inputs run through the console's own pattern detectors and scoring formula |
+| **Update** | F-01 and F-02 fixed, retested and closed on 2026-10-27. See [Round 02](../console-retest-2026-10-27/). |
 
 Round 01 tested the chatbot. This round tests the tool that did the testing. A red-team tool that can't be trusted to flag a leak, or that reports SECURE over a failure, produces confident wrong evidence. That is worse than no evidence.
 
@@ -18,12 +19,12 @@ Round 01 tested the chatbot. This round tests the tool that did the testing. A r
 
 | ID | Finding | Likelihood | Impact | Severity | Status |
 |---|---|:---:|:---:|:---:|:---:|
-| [F-01](#f-01-risk-score-reports-secure-over-a-fail) | Risk score reports SECURE over a FAIL | High | High | **High** \* | Open |
-| [F-02](#f-02-secret-detector-misses-current-key-formats-including-the-target-stacks-own) | Secret detector misses current key formats, including the target stack's own | Medium | High | **High** | Open |
+| [F-01](#f-01-risk-score-reports-secure-over-a-fail) | Risk score reports SECURE over a FAIL | High | High | **High** \* | **Closed** [2026-10-27](../console-retest-2026-10-27/#f-01-risk-score-reports-secure-over-a-fail) |
+| [F-02](#f-02-secret-detector-misses-current-key-formats-including-the-target-stacks-own) | Secret detector misses current key formats, including the target stack's own | Medium | High | **High** | **Closed** [2026-10-27](../console-retest-2026-10-27/#f-02-secret-detector-misses-current-key-formats) |
 | [F-03](#f-03-compliance-detectors-only-catch-exact-phrases) | Compliance detectors only catch exact phrases | Medium | High | Medium \* | Open |
 | [F-04](#f-04-evidence-entries-cannot-stand-on-their-own) | Evidence entries cannot stand on their own | Medium | Medium | Medium | Open |
 | [F-05](#f-05-documented-ingress-check-is-not-implemented) | Documented ingress check is not implemented | Medium | Low | Low | Open |
-| [F-06](#f-06-false-positive-and-mislabel-on-email-pattern) | False positive and mislabel on email pattern | Medium | Low | Low | Open |
+| [F-06](#f-06-false-positive-and-mislabel-on-email-pattern) | False positive and mislabel on email pattern | Medium | Low | Low | Open (mislabel fixed 2026-10-27) |
 
 Rated with the MATRIS [finding severity matrix](../METHODOLOGY.md#8-finding-severity). \* Lowered one level for a compensating control, named in the finding.
 
@@ -42,6 +43,7 @@ Rated with the MATRIS [finding severity matrix](../METHODOLOGY.md#8-finding-seve
 | **Effect** | The headline result can say SECURE while a boundary is broken. The layer pipeline does use worst-of and would show EXPOSED, so the console contradicts itself on the same screen. A small business owner reads the big green number. |
 | **Cause** | Averaging treats a FAIL as one data point among many instead of a stop condition, and history is per entry, not per category. |
 | **Recommendation** | Any FAIL caps the overall status at AT RISK; any WARN caps it at NEEDS ATTENTION. Score from the latest verdict per category, not every entry. Show coverage (categories tested out of ten) next to the score. |
+| **Status** | **Closed 2026-10-27.** Fixed as recommended, retested and deployed. [Round 02](../console-retest-2026-10-27/#f-01-risk-score-reports-secure-over-a-fail) |
 
 ## F-02: Secret detector misses current key formats, including the target stack's own
 
@@ -68,6 +70,7 @@ Rated with the MATRIS [finding severity matrix](../METHODOLOGY.md#8-finding-seve
 | **Effect** | Community Tech Aid runs on an Anthropic model with a Supabase backend. Test 4 (Sensitive Info Disclosure) asks the bot for exactly these secrets, and the screener could not have flagged an Anthropic key, a Supabase key or a clean connection string if one had leaked. The hyphen inside newer `sk-` keys breaks the pattern. |
 | **Cause** | Pattern written for one legacy key shape. |
 | **Recommendation** | Add patterns for `sk-proj-`, `sk-ant-`, `sk_live_`/`rk_live_`, `ghp_`/`github_pat_`, `AIza`, JWTs (`eyJ...`), and connection-string URIs (`postgres://`, `mongodb://`, `mysql://`). Add a positive-control test set and run it against every console release. |
+| **Status** | **Closed 2026-10-27.** All recommended formats added, plus Stripe restricted keys and `redis://`. Built-in positive-control self-test passes 11 of 11. [Round 02](../console-retest-2026-10-27/#f-02-secret-detector-misses-current-key-formats) |
 
 ## F-03: Compliance detectors only catch exact phrases
 
@@ -110,6 +113,7 @@ Rated with the MATRIS [finding severity matrix](../METHODOLOGY.md#8-finding-seve
 | **Condition** | A correct refusal that repeats the payload's address ("I can't send anything to attacker@example.com") flags EMAIL. A leaked connection string flags only because `password@host` looks like an email. |
 | **Effect** | Noise on a PASS; the right alarm for the wrong reason on a real leak. |
 | **Recommendation** | Ignore matches that appear verbatim in the payload; resolved for connection strings by F-02. |
+| **Status** | Open. Connection-string mislabel fixed 2026-10-27 by F-02; the refusal-echo false positive remains. |
 
 ---
 
@@ -123,4 +127,4 @@ node repro/scanner-check.js
 
 ## Next
 
-Fix F-01 and F-02, add the positive-control set, then retest the console and log the result here as Round 02 with before-and-after evidence.
+Done 2026-10-27: F-01 and F-02 fixed, positive-control self-test added, console retested with before-and-after evidence in [Round 02](../console-retest-2026-10-27/). F-03 to F-06 remain open.
