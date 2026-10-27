@@ -49,7 +49,8 @@ My work bridges the gap between high-level security frameworks (NIST SP 800-53, 
 
 ### 1. The MATRIS Method™ (AI Red Teaming Framework)
 * **Location:** [`/MATRIS-Method/`](./MATRIS-Method/)
-* **Description:** A verified, no-code framework designed to evaluate and red-team AI models and LLM chatbots against the OWASP Top 10 for LLMs. Tested against a live production chatbot for prompt injection, sensitive information disclosure, excessive agency, system prompt leakage, and misinformation. Documented [methodology](./MATRIS-Method/METHODOLOGY.md) and [NIST AI RMF crosswalk](./MATRIS-Method/NIST-AI-RMF-CROSSWALK.md). Listed in the [**OWASP GenAI Security Project Solutions Directory**](https://genai.owasp.org/solution/matris-method-red-team-console/) and on **SaaSHub**.
+* **Status:** Tested on a live system · BETA
+* **Description:** A no-code framework designed to evaluate and red-team AI models and LLM chatbots against the OWASP Top 10 for LLMs. Tested against a live production chatbot for prompt injection, sensitive information disclosure, excessive agency, system prompt leakage, and misinformation. Documented [methodology](./MATRIS-Method/METHODOLOGY.md) and [NIST AI RMF crosswalk](./MATRIS-Method/NIST-AI-RMF-CROSSWALK.md). Listed in the [**OWASP GenAI Security Project Solutions Directory**](https://genai.owasp.org/solution/matris-method-red-team-console/) and on **SaaSHub**.
 * **Value:** Empowers organizations to stress-test their AI deployments prior to production release without requiring heavy custom scripting.
 
 ### 2. GRC & Compliance Artifacts
@@ -63,6 +64,7 @@ My work bridges the gap between high-level security frameworks (NIST SP 800-53, 
 ### 4. Applied Projects
 * **Location:** [`/Applied-Projects/`](./Applied-Projects/)
 * **Description:** Production infrastructure work outside coursework: the Community Tech Aid AI platform case study, eBiz Market technology services, and security runbooks for local AI infrastructure and isolated network streaming.
+* **Featured:** [Gray Swan Arena: AI Red-Teaming Training](./Applied-Projects/gray-swan-arena/) - hands-on adversarial testing on Gray Swan AI's public red-teaming platform: Labyrinth cleared (5 scenarios), a documented system-prompt extraction study across 4 models, OWASP LLM01, 02, 06 and 07 coverage, with screenshot evidence.
 
 ---
 
