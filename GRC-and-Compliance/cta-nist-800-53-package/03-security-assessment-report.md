@@ -44,8 +44,8 @@ implicit.
 
 ## 2. Scope
 
-The assessment covers the 136 control statements enumerated in the SSP, spanning 17 control
-families plus the withdrawn control PE-7, which is recorded for completeness. Program Management
+The assessment covers the 136 control statements enumerated in the SSP, spanning 18 control
+families, including the withdrawn control PE-7, which is recorded for completeness. Program Management
 (PM) controls are organization-wide and out of scope, consistent with the SSP.
 
 The assessment boundary is the boundary defined in SSP Section 2: the CTA frontend, the edge
@@ -389,7 +389,7 @@ looks poor. Read against what the system is, the distribution is more informativ
 
 The Satisfied results cluster in the technical control families the owner actually operates:
 access enforcement, identification and authentication, planning, and the policy and procedure
-("-1") controls across all 17 families, which the policy manual closes. Row Level Security,
+("-1") controls across all 18 families, which the policy manual closes. Row Level Security,
 server-side access gating, disabled anonymous sign-in, JWT-derived audit identity, revoked
 EXECUTE on security-definer functions, and server-side free-tier enforcement are implemented and
 were tested.
@@ -824,7 +824,7 @@ IA-11, RA-5, SA-8, SC-5, SC-8, SC-28, SI-2, SI-12, SR-3.
 
 ## Appendix C - Not Applicable Determinations
 
-Eighteen controls were determined Not Applicable. The determinations fall into four groups, each
+Eighteen controls were determined Not Applicable. The determinations fall into four groups, plus the withdrawn PE-7, each
 resting on a factual property of the organization rather than on a decision not to implement.
 
 | Basis | Controls |

@@ -1039,7 +1039,7 @@ is invented.
 
 ## 8. Control Coverage Summary
 
-This document addresses the enumerated LOW baseline base controls across 17 families:
+This document addresses the enumerated LOW baseline base controls across 18 families:
 AC (11), AT (4), AU (10), CA (7), CM (9), CP (6), IA (8), IR (7), MA (4), MP (4), PE (13 incl.
 withdrawn PE-7), PL (5), PS (9), RA (5), SA (8), SC (12), SI (6), SR (8). Physical (PE) and
 several communications (SC) controls are inherited from Lovable Cloud and Cloudflare;
