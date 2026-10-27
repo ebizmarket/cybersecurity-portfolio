@@ -1,9 +1,9 @@
 # Gray Swan Arena: AI Red-Teaming Training
 
-**Analyst:** Kelly Guzman
-**Arena handle:** KellyGuzman
-**Platform:** [Gray Swan Arena](https://app.grayswan.ai/arena/about), Gray Swan AI's public AI red-teaming platform
-**Period:** October 2026 (ongoing)
+**Analyst:** Kelly Guzman  
+**Arena handle:** KellyGuzman  
+**Platform:** [Gray Swan Arena](https://app.grayswan.ai/arena/about), Gray Swan AI's public AI red-teaming platform  
+**Period:** October 2026 (ongoing)  
 **Tier:** Training
 
 Hands-on adversarial testing of LLM chatbots and agents in Gray Swan Arena's training scenarios. Every attempt was plain English typed into a browser chat, with no code, API access or tooling. Those are the same conditions [MATRIS Method™](../../MATRIS-Method/) was built for.

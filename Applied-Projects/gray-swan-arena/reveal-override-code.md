@@ -1,10 +1,10 @@
 # System Prompt Secret Extraction: Gray Swan Arena "Reveal Override Code"
 
-**Analyst:** Kelly Guzman
-**Arena handle:** KellyGuzman
-**Date:** October 18, 2026
-**Platform:** Gray Swan Arena (Training tier, Introduction to Red Teaming Chatbots)
-**Scenario:** Reveal Override Code, Wave 1 (Oct 05 - Sep 01)
+**Analyst:** Kelly Guzman  
+**Arena handle:** KellyGuzman  
+**Date:** October 18, 2026  
+**Platform:** Gray Swan Arena (Training tier, Introduction to Red Teaming Chatbots)  
+**Scenario:** Reveal Override Code, Wave 1 (Oct 05 - Sep 01)  
 **Result:** 0 of 4 target models broken. 11 attempts logged.
 
 ---
