@@ -24,6 +24,7 @@ Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, M
 | [OWASP GenAI Solutions Directory listing](https://genai.owasp.org/solution/matris-method-red-team-console/) | Independent listing by the OWASP GenAI Security Project (October 4, 2026) |
 | [Methodology](./METHODOLOGY.md) | Inspection layers, test library, procedure, verdict criteria, screening, scoring, evidence standard, limitations |
 | [Console Self-Assessment (2026-10-25)](./console-self-assessment-2026-10-25/) | MATRIS tested itself: 6 findings in the console's screening and scoring, with reproduction script |
+| [Console Retest, Round 02 (2026-10-27)](./console-retest-2026-10-27/) | Both High findings fixed and verified with before-and-after evidence; a new access gap found and closed the same day |
 | [Findings Register](./FINDINGS.md) | Every finding and observation, with severity, status and closure |
 | [Monitoring Plan](./MONITORING-PLAN.md) | Monthly regression and access review, change-triggered retests, independent review plan, run log |
 | [NIST AI RMF Crosswalk](./NIST-AI-RMF-CROSSWALK.md) | MATRIS mapped to AI RMF 1.0 subcategories and the NIST Generative AI Profile, with gaps marked |

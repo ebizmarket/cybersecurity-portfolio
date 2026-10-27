@@ -5,8 +5,8 @@
 | | |
 |---|---|
 | **Frameworks** | NIST AI 100-1, AI Risk Management Framework 1.0 · NIST AI 600-1, Generative AI Profile |
-| **System in scope** | Community Tech Aid chatbot (`communitytechaid.ai/chat`), tested with MATRIS Red-Team Console BETA v1 |
-| **Date** | October 25, 2026 |
+| **System in scope** | Community Tech Aid chatbot (`communitytechaid.ai/chat`), tested with MATRIS Red-Team Console BETA v1 (v1.1 from 2026-10-27) |
+| **Date** | October 25, 2026 · updated October 27, 2026 |
 | **Prepared by** | Kelly Guzman |
 
 This crosswalk shows where MATRIS Method™ activities produce evidence for AI RMF outcomes, and where they do not. It is a self-assessment against selected subcategories, not a claim of AI RMF conformance. Subcategory descriptions are paraphrased; see NIST AI 100-1 for the full text.
@@ -46,7 +46,7 @@ MATRIS is primarily a **MEASURE** activity: it tests a deployed chatbot against 
 | ID | Outcome (paraphrased) | MATRIS / CTA evidence | Status |
 |---|---|---|:---:|
 | MAP 1.1 | Intended purpose, users and context of use are understood and documented | Target serves non-technical users, including seniors. The test library includes two scam-specific categories for that reason ([Methodology §3](./METHODOLOGY.md#3-test-library-beta-v1)). | **Met** |
-| MAP 1.5 | Organizational risk tolerances are determined and documented | Verdict criteria define what counts as PASS, WARN and FAIL. Console scoring does not yet treat a FAIL as a stop condition. | **Partial** |
+| MAP 1.5 | Organizational risk tolerances are determined and documented | Verdict criteria define what counts as PASS, WARN and FAIL. Console scoring treats any FAIL as a stop condition (AT RISK) and any WARN as NEEDS ATTENTION ([Round 02](./console-retest-2026-10-27/), F-01 closed). | **Met** |
 | MAP 2.2 | System knowledge limits and human oversight of outputs are documented | Drift check: bot declined an out-of-scope speed test instead of inventing results. Every verdict is human-confirmed. | **Partial** |
 | MAP 5.1 | Likelihood and magnitude of identified impacts are documented | [Finding severity matrix](./METHODOLOGY.md#8-finding-severity): likelihood x impact, with compensating-control rule | **Met** |
 
@@ -59,7 +59,7 @@ MATRIS is primarily a **MEASURE** activity: it tests a deployed chatbot against 
 | MEASURE 2.1 | Test sets, metrics and tool details are documented | [Methodology](./METHODOLOGY.md) plus raw [JSON log](./matris-redteam-test-2026-08-27/matris-test-log.json) with verbatim payloads and responses | **Met** |
 | MEASURE 2.6 | The system is evaluated regularly for safety risks | Two consumer-harm tests passed on 2026-08-27. Monthly regression adopted; first scheduled run due by 2026-11-25. | **Partial** |
 | MEASURE 2.7 | Security and resilience are evaluated and documented | [Round 01](./matris-redteam-test-2026-08-27/): prompt injection, jailbreak, system prompt leakage, excessive agency, all PASS | **Met** |
-| MEASURE 2.10 | Privacy risk is examined and documented | Sensitive information disclosure test passed. Automated screening coverage for secrets is limited ([console self-assessment](./console-self-assessment-2026-10-25/), F-02). | **Partial** |
+| MEASURE 2.10 | Privacy risk is examined and documented | Sensitive information disclosure test passed. Secret screening covers 11 current key formats and connection strings, with a built-in positive-control self-test ([Round 02](./console-retest-2026-10-27/), F-02 closed). | **Met** |
 | MEASURE 3.1 | Existing, unanticipated and emergent risks are identified and tracked | [Findings Register](./FINDINGS.md) with severity, status and closure; reviewed under the monthly plan | **Met** |
 
 ## MANAGE
@@ -67,7 +67,7 @@ MATRIS is primarily a **MEASURE** activity: it tests a deployed chatbot against 
 | ID | Outcome (paraphrased) | MATRIS / CTA evidence | Status |
 |---|---|---|:---:|
 | MANAGE 1.2 | Treatment of documented risks is prioritized by impact and likelihood | Findings rated with the [severity matrix](./METHODOLOGY.md#8-finding-severity); fix order follows severity | **Met** |
-| MANAGE 1.3 | Responses to high-priority risks are planned and documented | High finding MF-01 remediated and verified the day it was found. Console screening findings have written recommendations; fixes pending. | **Partial** |
+| MANAGE 1.3 | Responses to high-priority risks are planned and documented | All three High findings remediated and verified: MF-01 the day it was found, F-01 and F-02 two days later with before-and-after evidence ([Round 02](./console-retest-2026-10-27/)). | **Met** |
 | MANAGE 1.4 | Residual risks are documented | Round 01 limitations state untested categories, single-turn scope and manual capture | **Partial** |
 | MANAGE 4.1 | Post-deployment monitoring plans are implemented | [Monitoring Plan](./MONITORING-PLAN.md) adopted 2026-10-25 with thresholds and a run log. Moves to Met after the first scheduled run. | **Partial** |
 | MANAGE 4.3 | Incidents and errors are communicated to relevant parties | Observations and findings are published in this repository | **Partial** |
@@ -96,10 +96,10 @@ How each MATRIS test category lines up with the generative AI risks in the GAI P
 | Function | Met | Partial | Gap |
 |---|:---:|:---:|:---:|
 | GOVERN | 3 | 2 | 0 |
-| MAP | 2 | 2 | 0 |
-| MEASURE | 4 | 2 | 1 |
-| MANAGE | 1 | 4 | 0 |
-| **Total (21)** | **10** | **10** | **1** |
+| MAP | 3 | 1 | 0 |
+| MEASURE | 5 | 1 | 1 |
+| MANAGE | 2 | 3 | 0 |
+| **Total (21)** | **13** | **7** | **1** |
 
 **Strongest:** MEASURE. MATRIS produces documented, reproducible security and safety test evidence against a live system.
 
