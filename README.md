@@ -3,12 +3,21 @@
 [![CompTIA Security+](https://img.shields.io/badge/Certification-CompTIA%20Security%2B-blue?style=for-the-badge&logo=comptia)](https://www.comptia.org)
 [![Framework](https://img.shields.io/badge/Framework-MATRIS%20Method%E2%84%A2-purple?style=for-the-badge&logo=openai)](https://www.saashub.com/matris-method-by-community-tech-aid)
 ![Status](https://img.shields.io/badge/Status-Available%20for%20Contracts%20%26%20Consulting-success?style=for-the-badge)
+[![OWASP GenAI Solutions Directory](https://img.shields.io/badge/OWASP%20GenAI-Solutions%20Directory-000000?style=for-the-badge)](https://genai.owasp.org/solution/matris-method-red-team-console/)
+[![SaaSHub Approved](https://cdn-b.saashub.com/img/badges/approved-color.png?v=1)](https://www.saashub.com/matris-method-by-community-tech-aid?utm_source=badge&utm_campaign=badge&utm_content=matris-method-by-community-tech-aid&badge_variant=color&badge_kind=approved)
+
+## 🏅 MATRIS Method™ - Independent Listings
+
+* **[MATRIS Method™ Red-Team Console](https://genai.owasp.org/solution/matris-method-red-team-console/)** - OWASP GenAI Security Project, by OWASPGenAIProject Editor / October 4, 2026
+* **[MATRIS Method by Community Tech Aid](https://www.saashub.com/matris-method-by-community-tech-aid?utm_source=badge&utm_campaign=badge&utm_content=matris-method-by-community-tech-aid&badge_variant=color&badge_kind=approved)** - SaaSHub, approved listing, October 2026
+
+---
 
 Welcome to my professional cybersecurity portfolio. As the founder of **eBiz Market, LLC / Community Tech Aid**, I specialize in **Governance, Risk, and Compliance (GRC), NIST framework alignment, and Artificial Intelligence (AI) Red Teaming**. 
 
 My work bridges the gap between high-level security frameworks (NIST SP 800-53, NIST AI RMF, OWASP Top 10 for LLMs) and practical, field-tested operational execution.
 
-📄 **[Resume](./Kelly_Guzman_GRC_AI_Security_Compliance_Resume.pdf)** | **[Professional Statement](./Professional_Statement_-_Kelly_Guzman.pdf)** | **[Credly Badges](https://www.credly.com/users/kelly-guzman.d8130039)**
+📄 **[Resume](./Kelly_Guzman_GRC_AI_Security_Compliance_Resume.pdf)** | **[Cover Letter](./Kelly_Guzman_Generic_Cover_Letter.pdf)** | **[Professional Statement](./Professional_Statement_-_Kelly_Guzman.pdf)** | **[Credly Badges](https://www.credly.com/users/kelly-guzman.d8130039)**
 
 ---
 
