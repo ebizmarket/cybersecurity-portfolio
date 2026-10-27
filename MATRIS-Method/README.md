@@ -5,7 +5,7 @@
 ![Security+ Certified](https://img.shields.io/badge/CompTIA-Security%2B-007ACC?style=flat-square&logo=comptia&logoColor=white)
 ![OWASP LLM Top 10](https://img.shields.io/badge/OWASP-LLM%20Top%2010-FF5722?style=flat-square)
 ![Audit Coverage](https://img.shields.io/badge/Framework-Zero--Code%20Red--Teaming-success?style=flat-square)
-![Status](https://img.shields.io/badge/Verification-Production--Verified-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Tested%20on%20a%20live%20system%20%C2%B7%20BETA-1f6feb?style=flat-square)
 
 > **Author:** Kelly Guzman | [Live Verification & Evidence](https://communitytechaid.ai/red-team) | [Email Contact](mailto:contact@ebizmarket.net)
 
