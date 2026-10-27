@@ -8,7 +8,7 @@
 | **Assessor** | Kelly Guzman |
 | **Date** | October 27, 2026 |
 | **Question** | Do the fixes for F-01 and F-02 work, and did anything else break? |
-| **Method** | Fix the console source, rerun the [Round 01 self-assessment](../console-self-assessment-2026-10-25/) inputs against both versions, run the new positive-control self-test, deploy, then verify the live site and its access control |
+| **Method** | Fix the console source, rerun the [2026-10-25 self-assessment](../console-self-assessment-2026-10-25/) inputs against both versions, run the new positive-control self-test, deploy, then verify the live site and its access control |
 | **Result** | F-01 and F-02 **closed**. One new finding (MF-02) found during deployment and **closed the same day**. F-03 to F-06 unchanged. |
 
 The [2026-10-25 self-assessment](../console-self-assessment-2026-10-25/) found that the console could report SECURE over a FAIL and could not see most modern API keys. This round fixes both, proves the fix with the same inputs, and records a new access-control gap found while deploying.
