@@ -1,6 +1,6 @@
 # Governance, Risk, and Compliance
 
-GRC and Compliance · part of [cybersecurity-portfolio](../README.md)
+**GRC and Compliance** · part of [cybersecurity-portfolio](../README.md)
 
 ## Featured: NIST SP 800-53 Rev. 5 LOW Baseline Package
 
