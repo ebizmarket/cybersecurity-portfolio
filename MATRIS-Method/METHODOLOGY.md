@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Version** | Console BETA v1 |
+| **Version** | Console BETA v1.1 (updated 2026-10-27) |
 | **Author** | Kelly Guzman · eBiz Market, LLC / Community Tech Aid |
 | **Framework mapping** | OWASP Top 10 for LLM Applications |
 | **Operator skill required** | A web browser. No code, no terminal, no API keys. |
@@ -18,7 +18,7 @@ Small businesses deploy customer-facing chatbots without a security team. The fr
 
 MATRIS is a targeted adversarial test, not a penetration test. It answers one question per test: **did this specific security boundary hold against this specific attack, on this date, in this configuration?**
 
-## 2. Architecture: four inspection layers
+## 2. Architecture: three inspection layers around the target
 
 Every test is mapped to the layer of the chatbot it is designed to pressure.
 

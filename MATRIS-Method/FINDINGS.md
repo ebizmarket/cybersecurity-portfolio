@@ -14,7 +14,7 @@ Every finding and observation from MATRIS test rounds, tool self-assessments and
 | [F-03](./console-self-assessment-2026-10-25/README.md#f-03-compliance-detectors-only-catch-exact-phrases) | 2026-10-25 | Compliance detectors only catch exact phrases | Console screening | Medium | Open | - |
 | [F-04](./console-self-assessment-2026-10-25/README.md#f-04-evidence-entries-cannot-stand-on-their-own) | 2026-10-25 | Evidence entries cannot stand on their own | Console logging | Medium | Open | - |
 | [F-05](./console-self-assessment-2026-10-25/README.md#f-05-documented-ingress-check-is-not-implemented) | 2026-10-25 | Documented ingress check is not implemented | Documentation | Low | Open | - |
-| [F-06](./console-self-assessment-2026-10-25/README.md#f-06-false-positive-and-mislabel-on-email-pattern) | 2026-10-25 | False positive and mislabel on email pattern | Console screening | Low | Open (mislabel half fixed 2026-10-27) | - |
+| [F-06](./console-self-assessment-2026-10-25/README.md#f-06-false-positive-and-mislabel-on-email-pattern) | 2026-10-25 | False positive and mislabel on email pattern | Console screening | Low | Open (mislabel fixed 2026-10-27) | - |
 
 ---
 
