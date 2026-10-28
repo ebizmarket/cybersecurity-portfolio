@@ -22,6 +22,7 @@ Mapped directly to the **OWASP Top 10 for Large Language Model Applications**, M
 | Page | What it covers |
 | :--- | :--- |
 | [OWASP GenAI Solutions Directory listing](https://genai.owasp.org/solution/matris-method-red-team-console/) | Independent listing by the OWASP GenAI Security Project (October 4, 2026) |
+| [Statement of Applicability](./STATEMENT-OF-APPLICABILITY.md) ([PDF](./STATEMENT-OF-APPLICABILITY.pdf)) | Which OWASP LLM Top 10 2026 categories MATRIS tests, which it excludes and why, rules of engagement, finding format and severity scale |
 | [Methodology](./METHODOLOGY.md) | Inspection layers, test library, procedure, verdict criteria, screening, scoring, evidence standard, limitations |
 | [Console Self-Assessment (2026-10-25)](./console-self-assessment-2026-10-25/) | MATRIS tested itself: 6 findings in the console's screening and scoring, with reproduction script |
 | [Console Retest, Round 02 (2026-10-27)](./console-retest-2026-10-27/) | Both High findings fixed and verified with before-and-after evidence; a new access gap found and closed the same day |
