@@ -55,7 +55,7 @@ My work bridges the gap between high-level security frameworks (NIST SP 800-53, 
 
 ### 2. GRC & Compliance Artifacts
 * **Location:** [`/GRC-and-Compliance/`](./GRC-and-Compliance/)
-* **Description:** A complete NIST SP 800-53 Rev. 5 LOW package for a live production system (System Security Plan with 136 control statements, 18-family policy manual, Security Assessment Report with POA&M, and a client-facing posture summary), plus Cloudflare security hardening and SAM.gov federal vendor compliance.
+* **Description:** A complete NIST SP 800-53 Rev. 5 LOW package for a live production system (System Security Plan with 136 control statements, 18-family policy manual, Security Assessment Report with POA&M, and a client-facing posture summary), plus Cloudflare security hardening and SAM.gov federal vendor compliance. An [AI Regulatory Applicability and Obligations Register](./GRC-and-Compliance/ai-regulatory-register/) screens 19 AI laws and frameworks (federal, Idaho, Washington, Oregon, Maine, Utah, California, Colorado, EU AI Act) against CTA's systems; verifying it found the chatbot's own instructions told it to deny being an AI, which was [fixed and verified the same day](./GRC-and-Compliance/ai-regulatory-register/ai-disclosure-remediation-2026-10-27/).
 
 ### 3. Operational Leadership & Compliance Proof
 * **Location:** [`/Operational-Experience/`](./Operational-Experience/)
