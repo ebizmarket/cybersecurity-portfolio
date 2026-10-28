@@ -22,3 +22,4 @@ A complete control package for a live production system (Community Tech Aid, an 
 | 01 | [CTA NIST SP 800-53 Rev. 5 Compliance Package](cta-nist-800-53-package/) - SSP (136 controls), policy manual, SAR with POA&M, posture summary for a live production system | .md / .pdf | Complete |
 | 02 | [Federal Vendor Compliance: SAM.gov Registration](federal-compliance-sam-gov.md) | .md | Complete |
 | 03 | [Cloudflare Security Hardening: Community Tech Aid](cta-cloudflare-hardening.md) | .md | Complete |
+| 04 | [AI Regulatory Applicability and Obligations Register](ai-regulatory-register/) - 19 AI laws, rules and frameworks screened against CTA's chatbot, red-team console and services; obligations mapped to controls and evidence. Includes the [AI disclosure remediation](ai-regulatory-register/ai-disclosure-remediation-2026-10-27/) it triggered | .md / .pdf | v1.1 |
